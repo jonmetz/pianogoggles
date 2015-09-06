@@ -1,0 +1,38 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+#hiddenCanvas{
+    display:none;
+}
+
+#rawVideo {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+#canvas{
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+#helperCanvas{
+    display: none;
+}
+
+#message{
+    position:fixed;
+    top: 20px;
+    left: 30px;
+    font-size:30px;
+    color:red;
+}
